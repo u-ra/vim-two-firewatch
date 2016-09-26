@@ -263,7 +263,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:uno_3 = '6e88a6'
     let s:uno_4 = '55606d'
 
-    let s:duo_1 = 'c8ae9d'
+    let s:duo_1 = 'e5bf70'
     let s:duo_2 = 'e06c75'
     let s:duo_3 = 'dd672c'
 
