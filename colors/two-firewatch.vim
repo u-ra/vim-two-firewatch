@@ -242,6 +242,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:uno_4 = 'B6ad9a'
 
     let s:duo_1 = '065289'
+    let s:duo_1a = '065289'
     let s:duo_2 = '718ecd'
     let s:duo_3 = 'aeb3b7'
 
@@ -264,6 +265,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:uno_4 = '55606d'
 
     let s:duo_1 = 'e5bf70'
+    let s:duo_1a = 'c8ae9d'
     let s:duo_2 = 'e06c75'
     let s:duo_3 = 'dd672c'
 
@@ -331,7 +333,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   " Standard syntax highlighting --------------------------------------------{{{
   call <sid>X('Comment',        s:uno_4,         '',          'italic')
   call <sid>X('Constant',       s:duo_2,         '',          '')
-  call <sid>X('String',         s:duo_1,         '',          '')
+  call <sid>X('String',         s:duo_1a,         '',          '')
   call <sid>X('Character',      s:duo_2,         '',          '')
   call <sid>X('Number',         s:duo_2,         '',          '')
   call <sid>X('Boolean',        s:duo_2,         '',          '')
