@@ -3,7 +3,7 @@
 " License: MIT
 " Version: 1.0.0
 
-" Global setup =============================================================={{{
+" Global setup ==============================================================
 
 hi clear
 syntax reset
@@ -286,7 +286,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
 
   "}}}
 
-  " Vim editor color --------------------------------------------------------{{{
+  " Vim editor color --------------------------------------------------------
   call <sid>X('bold',         '',               '',                   'bold')
   call <sid>X('ColorColumn',  '',               s:syntax_cursor_line, '')
   call <sid>X('Conceal',      '',               '',                   '')
@@ -302,7 +302,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('IncSearch',    s:uno_1,      s:uno_4,              '')
   call <sid>X('LineNr',       s:syntax_fold_bg, '',                   '')
   call <sid>X('CursorLineNr', s:uno_2,          '',                   'none')
-  call <sid>X('MatchParen',   s:syntax_bg,      s:syntax_accent,      '')
+  call <sid>X('MatchParen',   s:syntax_bg,      '',      'underline')
   call <sid>X('Italic',       '',               '',                   'italic')
   call <sid>X('ModeMsg',      s:syntax_fg,      '',                   '')
   call <sid>X('MoreMsg',      s:syntax_fg,      '',                   '')
@@ -328,7 +328,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('Normal',       s:syntax_fg,      s:syntax_bg,          '')
   call <sid>X('SignColumn',   '',               s:uno_4,              '')
   call <sid>X('Special',      s:duo_2,          '',                   '')
-  " }}}
+  "
 
   " Standard syntax highlighting --------------------------------------------{{{
   call <sid>X('Comment',        s:uno_4,         '',          'italic')
@@ -658,7 +658,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   " }}}
 
 endif
-"}}}
+
 
 " Delete functions =========================================================={{{
 delf <SID>X
