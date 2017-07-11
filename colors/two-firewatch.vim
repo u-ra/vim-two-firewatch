@@ -234,7 +234,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
 
   "}}}
 
-  " Color definition --------------------------------------------------------{{{
+  " Color definition --------------------------------------------------------
   if &background ==? 'light'
     let s:uno_1 = '2d2006'
     let s:uno_2 = '896724'
@@ -279,12 +279,11 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:syntax_accent           = '56b6c2'
     let s:syntax_gutter           = '636d83'
     let s:syntax_selection        = '3e4452'
-    let s:syntax_selection        = '3e4452'
     let s:syntax_fold_bg          = '5c6370'
     let s:syntax_cursor_line      = '2c323c'
   endif
 
-  "}}}
+
 
   " Vim editor color --------------------------------------------------------
   call <sid>X('bold',         '',               '',                   'bold')
