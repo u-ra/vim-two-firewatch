@@ -307,7 +307,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('MoreMsg',      s:syntax_fg,      '',                   '')
   call <sid>X('NonText',      s:uno_4,          '',                   '')
   call <sid>X('PMenu',        '',               s:syntax_selection,   '')
-  call <sid>X('PMenuSel',     '',               s:uno4,               '')
+  call <sid>X('PMenuSel',     '',               s:uno_4,               '')
   call <sid>X('PMenuSbar',    '',               s:syntax_bg,          '')
   call <sid>X('PMenuThumb',   '',               s:uno_1,              '')
   call <sid>X('Question',     s:syntax_accent,  '',                   '')
@@ -391,11 +391,11 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('DiffChange',  s:syntax_color_modified, s:syntax_selection, '')
   call <sid>X('DiffDelete',  s:syntax_color_removed,  s:syntax_selection, '')
   call <sid>X('DiffText',    s:uno_2,                 s:syntax_selection, '')
-  call <sid>X('DiffAdded',   s:duo_2,                 s:syntax_selection, '')
+  call <sid>X('DiffAdded',   s:syntax_color_added,    s:syntax_selection, '')
   call <sid>X('DiffFile',    s:syntax_accent,         s:syntax_selection, '')
   call <sid>X('DiffNewFile', s:duo_2,                 s:syntax_selection, '')
   call <sid>X('DiffLine',    s:uno_2,                 s:syntax_selection, '')
-  call <sid>X('DiffRemoved', s:syntax_accent,         s:syntax_selection, '')
+  call <sid>X('DiffRemoved', s:syntax_color_removed,  s:syntax_selection, '')
   " }}}
 
   " C/C++ and other languages like that -------------------------------------{{{
