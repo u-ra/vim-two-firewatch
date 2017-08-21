@@ -307,7 +307,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('MoreMsg',      s:syntax_fg,      '',                   '')
   call <sid>X('NonText',      s:uno_4,          '',                   '')
   call <sid>X('PMenu',        '',               s:syntax_selection,   '')
-  call <sid>X('PMenuSel',     '',               s:syntax_bg,          '')
+  call <sid>X('PMenuSel',     '',               s:uno4,               '')
   call <sid>X('PMenuSbar',    '',               s:syntax_bg,          '')
   call <sid>X('PMenuThumb',   '',               s:uno_1,              '')
   call <sid>X('Question',     s:syntax_accent,  '',                   '')
