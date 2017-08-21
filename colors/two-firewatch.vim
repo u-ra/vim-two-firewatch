@@ -289,7 +289,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('bold',         '',               '',                   'bold')
   call <sid>X('ColorColumn',  '',               s:syntax_cursor_line, '')
   call <sid>X('Conceal',      '',               '',                   '')
-  call <sid>X('Cursor',       s:syntax_bg,      s:syntax_accent,      '')
+  call <sid>X('Cursor',       s:syntax_bg,      'e2836e',      '')
   call <sid>X('CursorIM',     '',               '',                   '')
   call <sid>X('CursorColumn', '',               s:syntax_cursor_line, '')
   call <sid>X('CursorLine',   '',               s:syntax_cursor_line, '')
