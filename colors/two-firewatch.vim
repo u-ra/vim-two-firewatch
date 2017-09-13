@@ -258,6 +258,9 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:syntax_selection        = 'E5DDCB'
     let s:syntax_fold_bg          = 'd1cec7'
     let s:syntax_cursor_line      = 'F3EFE7'
+
+    let s:search_highlight_fg     = 'ffffff'
+    let s:search_highlight_bg     = s:syntax_selection
   else
     let s:uno_1 = 'd6e9ff'
     let s:uno_2 = 'abb2bf'
@@ -281,6 +284,9 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     let s:syntax_selection        = '3e4452'
     let s:syntax_fold_bg          = '5c6370'
     let s:syntax_cursor_line      = '2c323c'
+
+    let s:search_highlight_fg     = 'e3e5e9'
+    let s:search_highlight_bg     = '596170'
   endif
 
 
@@ -298,7 +304,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('VertSplit',    s:syntax_fold_bg, '',                   'none')
   call <sid>X('Folded',       s:syntax_bg,      s:syntax_fold_bg,     '')
   call <sid>X('FoldColumn',   s:uno_3,          s:syntax_cursor_line, '')
-  call <sid>X('IncSearch',    s:uno_1,          s:uno_4,              '')
+  call <sid>X('IncSearch',    s:search_highlight_bg, s:search_highlight_fg, '')
   call <sid>X('LineNr',       s:syntax_fold_bg, '',                   '')
   call <sid>X('CursorLineNr', s:uno_2,          '',                   'none')
   call <sid>X('MatchParen',   s:syntax_bg,      s:uno_2,              '')
@@ -311,7 +317,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   call <sid>X('PMenuSbar',    '',               s:syntax_bg,          '')
   call <sid>X('PMenuThumb',   '',               s:uno_1,              '')
   call <sid>X('Question',     s:syntax_accent,  '',                   '')
-  call <sid>X('Search',       s:uno_4,          s:uno_1,              '')
+  call <sid>X('Search',       s:search_highlight_fg, s:search_highlight_bg, '')
   call <sid>X('SpecialKey',   s:syntax_fold_bg, '',                   '')
   call <sid>X('StatusLine',   s:syntax_fg,      s:syntax_cursor_line, 'none')
   call <sid>X('StatusLineNC', s:uno_4,          '',                   '')
