@@ -502,8 +502,8 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   hi link GitGutterAdd    SignifySignAdd
   hi link GitGutterChange SignifySignChange
   hi link GitGutterDelete SignifySignDelete
-  call <sid>X('diffAdded',   s:duo_2,         '', '')
-  call <sid>X('diffRemoved', s:syntax_accent, '', '')
+  call <sid>X('diffAdded',   s:syntax_color_added, '', '')
+  call <sid>X('diffRemoved', s:syntax_color_removed, '', '')
   " }}}
 
   " HTML highlighting -------------------------------------------------------{{{
