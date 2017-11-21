@@ -336,7 +336,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
   "
 
   " Standard syntax highlighting --------------------------------------------{{{
-  call <sid>X('Comment',        s:uno_4,         '',          'italic')
+  call <sid>X('Comment',        s:uno_4,         '',          '')
   call <sid>X('Constant',       s:duo_2,         '',          '')
   call <sid>X('String',         s:duo_1a,         '',          '')
   call <sid>X('Character',      s:duo_2,         '',          '')
