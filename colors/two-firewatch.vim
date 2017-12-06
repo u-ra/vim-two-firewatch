@@ -16,7 +16,7 @@ if !exists('g:two_firewatch_italics')
   let g:two_firewatch_italics = 1
 endif
 
-if has('gui_running') || &t_Co == 88 || &t_Co == 256
+if has('termguicolors') || &t_Co == 88 || &t_Co == 256
   " functions
   " returns an approximate grey index for the given grey level
 
