@@ -356,7 +356,7 @@ if has('termguicolors') || &t_Co == 88 || &t_Co == 256
   call <sid>X('Include',        s:duo_2,         '',          '')
   call <sid>X('Define',         s:duo_2,         '',          'none')
   call <sid>X('Macro',          s:uno_3,         '',          '')
-  call <sid>X('PreCondit',      'ff0000',        '',          '')
+  call <sid>X('PreCondit',      s:uno_4,         '',          '')
   call <sid>X('Type',           s:duo_1,         '',          'none')
   call <sid>X('StorageClass',   s:duo_2,         '',          '')
   call <sid>X('Structure',      s:uno_1,         '',          '')
