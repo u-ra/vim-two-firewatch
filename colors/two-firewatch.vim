@@ -13,7 +13,7 @@ syntax reset
 let g:colors_name = 'two-firewatch'
 
 if !exists('g:two_firewatch_italics')
-  let g:two_firewatch_italics = 0
+  let g:two_firewatch_italics = 1
 endif
 
 if has('gui_running') || &t_Co == 88 || &t_Co == 256
