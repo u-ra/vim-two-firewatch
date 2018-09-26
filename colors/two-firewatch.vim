@@ -307,7 +307,7 @@ if has('termguicolors') || &t_Co == 88 || &t_Co == 256
   call <sid>X('IncSearch',    s:search_highlight_bg, s:search_highlight_fg, '')
   call <sid>X('LineNr',       s:syntax_fold_bg, '',                   '')
   call <sid>X('CursorLineNr', s:uno_2,          '',                   'none')
-  call <sid>X('MatchParen',   s:syntax_bg,      s:uno_2,              '')
+  call <sid>X('MatchParen',   s:duo_2,      s:syntax_bg,              '')
   call <sid>X('Italic',       '',               '',                   'italic')
   call <sid>X('ModeMsg',      s:syntax_fg,      '',                   '')
   call <sid>X('MoreMsg',      s:syntax_fg,      '',                   '')
